@@ -12,16 +12,6 @@ ENDFUNCTION(PREPEND)
 set(SRB2_ASSET_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/installer"
 	CACHE STRING "Path to directory that contains all asset files for the installer.")
 
-set(SRB2_ASSET_HASHED
-"srb2.srb;\
-patch.kart;\
-gfx.kart;\
-textures.kart;\
-chars.kart;\
-maps.kart"
-	CACHE STRING "Asset filenames to apply MD5 checks. No spaces between entries!"
-)
-
 set(SRB2_ASSET_DOCS
 "README.txt;\
 HISTORY.txt;\
