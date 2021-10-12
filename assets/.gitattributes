@@ -1,0 +1,7 @@
+music.kart filter=lfs diff=lfs merge=lfs -text
+sounds.kart filter=lfs diff=lfs merge=lfs -text
+chars.kart filter=lfs diff=lfs merge=lfs -text
+gfx.kart filter=lfs diff=lfs merge=lfs -text
+patch.kart filter=lfs diff=lfs merge=lfs -text
+srb2.srb filter=lfs diff=lfs merge=lfs -text
+maps.kart filter=lfs diff=lfs merge=lfs -text
